@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- primary -->
+    <color name="colorPrimary">#4EB3AC</color>
+    <color name="colorPrimaryVariant">#397D76</color>
+    <color name="colorOnPrimary">#FFFFFF</color>
+
+    <!-- secondary -->
+    <color name="colorSecondary">#CDEB69</color>
+    <color name="colorOnSecondary">#000000</color>
+
+    <!-- background and surface -->
+    <color name="backgroundDefault">#121212</color>
+    <color name="backgroundCard">#1E1E1E</color>
+    <color name="backgroundHighlight">#1F2920</color>
+
+    <!-- text -->
+    <color name="textPrimary">#F0F0F0</color>
+    <color name="textSecondary">#AAAAAA</color>
+    <color name="textHighlight">#CDEB69</color>
+
+    <!-- others -->
+    <color name="divider">#333333</color>
+</resources>

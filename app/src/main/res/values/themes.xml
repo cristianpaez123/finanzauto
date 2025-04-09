@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Theme.Finanzauto" parent="Theme.Material3.DayNight.NoActionBar">
+
+        <!-- Colores base -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorOnPrimary">@color/colorOnPrimary</item>
+
+        <item name="colorSecondary">@color/colorSecondary</item>
+        <item name="colorOnSecondary">@color/colorOnSecondary</item>
+
+        <!-- Superficies -->
+        <item name="colorSurface">@color/backgroundCard</item>
+        <item name="colorOnSurface">@color/textPrimary</item>
+
+        <!-- Fondo de ventana -->
+        <item name="android:windowBackground">@color/backgroundDefault</item>
+
+        <!-- Barras del sistema -->
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">true</item>
+
+        <!-- Estilos personalizados -->
+        <item name="floatingActionButtonStyle">@style/Widget.Finanzauto.FAB</item>
+        <item name="bottomNavigationStyle">@style/Widget.Finanzauto.BottomNav</item>
+
+    </style>
+</resources>

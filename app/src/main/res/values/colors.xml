@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- primary colors -->
+    <color name="colorPrimary">#2C6F68</color>       <!-- Verde oscuro -->
+    <color name="colorPrimaryVariant">#1F4F49</color> <!-- Variante oscura -->
+    <color name="colorOnPrimary">#FFFFFF</color>     <!-- Texto sobre primario -->
+
+    <!-- secondary colors (FAB, acciones)-->
+    <color name="colorSecondary">#B2D235</color>     <!-- Verde lima -->
+    <color name="colorOnSecondary">#FFFFFF</color>
+
+    <!-- background general -->
+    <color name="backgroundDefault">#F9F9F9</color>
+    <color name="backgroundCard">#DBECE9</color>     <!-- Cards de usuario -->
+    <color name="backgroundHighlight">#F0F8E8</color> <!-- Seleccionado -->
+
+    <!-- text -->
+    <color name="textPrimary">#333333</color>
+    <color name="textSecondary">#666666</color>
+    <color name="textHighlight">#B2D235</color>
+
+    <!-- others -->
+    <color name="divider">#DDDDDD</color>
+
+</resources>
