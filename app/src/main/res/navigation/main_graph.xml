@@ -12,19 +12,11 @@
         <action
             android:id="@+id/action_listUserFragment_to_RegisterUserFragment"
             app:destination="@id/registerUserFragment" />
-        <action
-            android:id="@+id/action_listUserFragment_to_UserDetailFragment"
-            app:destination="@id/UserDetailFragment" />
     </fragment>
 
     <fragment
         android:id="@+id/registerUserFragment"
         android:name="com.example.myapplication.iu.view.RegisterUserFragment"
         tools:layout="@layout/fragment_register_user">
-    </fragment>
-    <fragment
-        android:id="@+id/UserDetailFragment"
-        android:name="com.example.myapplication.iu.view.UserDetailFragment"
-        tools:layout="@layout/fragment_user_detail">
     </fragment>
 </navigation>

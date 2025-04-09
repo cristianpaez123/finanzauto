@@ -7,9 +7,4 @@ object NavigationManager {
     fun goToRegisterUser(fragment: Fragment){
         fragment.findNavController().navigate(R.id.action_listUserFragment_to_RegisterUserFragment)
     }
-
-    fun goToUserDetail(fragment: Fragment,id: String) {
-        fragment.findNavController().navigate(R.id.action_listUserFragment_to_UserDetailFragment)
-
-    }
 }

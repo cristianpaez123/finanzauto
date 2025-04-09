@@ -63,13 +63,9 @@ class UserAdapter(
             if (user.picture.isNotBlank()) {
                 Picasso.get().load(user.picture).into(binding.imgUser)
             }
-            binding.topCard.setOnClickListener {
-                onUserClickListener.onViewDetailClicked(user.id)
-            }
         }
     }
     interface OnUserClickListener {
         fun onUserClicked(id: String)
-        fun onViewDetailClicked(id: String)
     }
 }

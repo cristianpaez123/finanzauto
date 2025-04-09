@@ -88,10 +88,6 @@ class UserListFragment : Fragment(), UserAdapter.OnUserClickListener {
         viewModel.deleteUser(id)
     }
 
-    override fun onViewDetailClicked(id: String) {
-        NavigationManager.goToUserDetail(this, id)
-    }
-
     private fun setupFabScrollBehavior() {
         binding.rcvUser.addOnScrollListener(object : RecyclerView.OnScrollListener() {
             override fun onScrolled(recyclerView: RecyclerView, dx: Int, dy: Int) {
